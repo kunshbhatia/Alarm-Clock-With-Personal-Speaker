@@ -23,7 +23,6 @@ f = (int(input_[6] + input_[7]) - int(standard_time[6] + standard_time[7]))
 
 current_time_in_sec = a+b+c
 alarm_in_sec = d+e+f
-print(alarm_in_sec-current_time_in_sec)
 time.sleep(alarm_in_sec - current_time_in_sec)
 print("ALARM REMINDER !!!!!!!!".center(100))
 time_current = time.strftime("%H:%M:%S")
